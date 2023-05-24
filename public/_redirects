@@ -1,1 +1,2 @@
 /api/* /.netlify/functions/:splat
+https://marcus-first-site.netlify.app/* https://www.collarcitycode.com/:splat 301!
