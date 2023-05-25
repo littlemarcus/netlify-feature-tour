@@ -12,7 +12,7 @@ This site provides a path to get started learning about Netlify features.
 
 - 📚 [Docs Getting Started Tutorial](https://docs.netlify.com/get-started/?utm_medium=social&utm_source=github&utm_campaign=devex-ph&utm_content=devex-examples)
 
-## Speedily deploy your own version
+## Let's skip this deploy!
 
 Deploy your own version of this example site by selecting the Deploy to Netlify Button below. This will automatically:
 
