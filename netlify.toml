@@ -1,0 +1,4 @@
+[context.production]
+NETLIFY_VERBOSE = "true"
+[context.deploy-preview]
+GATSBY_CLOUD_IMAGE_CDN = "true"
