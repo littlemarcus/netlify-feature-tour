@@ -1,18 +1,35 @@
----
-import Layout from '../components/layout.astro';
----
 
 <style>
-h2 {
-  text-align: center;
-}
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f8f8f8;
+    }
+    .confirmation {
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #4CAF50;
+    }
+    p {
+      color: #333;
+    }
 </style>
 
-<Layout
-  title="Netlify Forms"
-  description="Turn any HTML form into a functional form that can receive submissions with a single line of code."
->
+<head>
+  <title>Netlify Forms</title> 
+  <meta name="description" content="Turn any HTML form into a functional form that can receive submissions with a single line of code."> 
+</head>  
   <main>
-    <h2>Submission received!</h2>
+    <div class="confirmation">
+      <h1>Thank You!</h1>
+      <p>Your form has been successfully submitted.</p>
   </main>
-</Layout>

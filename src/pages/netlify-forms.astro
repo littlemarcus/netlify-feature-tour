@@ -61,6 +61,7 @@ import Layout from '../components/layout.astro';
       name="contact"
       action="/success"
       data-netlify="true"
+      data-netlify-recaptcha="true"
     >
       <label htmlFor="name">Name</label>
       <input type="text" id="name" name="name" />
@@ -70,6 +71,7 @@ import Layout from '../components/layout.astro';
 
       <label htmlFor="message">Message</label>
       <textarea name="message"></textarea>
+      <div data-netlify-recaptcha="true"></div>
 
       <button type="submit" class="button">
         Send
